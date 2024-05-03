@@ -25,7 +25,7 @@ git clone https://github.com/your_username/effector-prediction-pipeline.git
 cd effector-prediction-pipeline
 ```
 
-2. Install dependencies:
+## Install dependencies:
 
 Ensure you have the necessary bioinformatics tools (SignalP, WoLF-PSORT, TMHMM, PredGPI, and EffectorP) installed on your system and available in your PATH.
   
@@ -36,14 +36,14 @@ Ensure you have the necessary bioinformatics tools (SignalP, WoLF-PSORT, TMHMM, 
 5. EffectorP 3.0  (https://github.com/JanaSperschneider/EffectorP-3.0)
 6. faSomeRecords (https://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/faSomeRecords)
 
-3. Add installation directory of installation of EffectorP 3.0, predGPI and TMHMM 2.0 
+## Add installation directory of installation of EffectorP 3.0, predGPI and TMHMM 2.0 
 
 ```
 effectorP_directory= "/path/of/installation/EffectorP-3.0" 
 predgpi_directory= "/path/of/installation/predgpi"
 TMHMM2_directory= "/path/of/installation/tmhmm-2.0c"
 ```
-4. Change TMHMM2.0.options file
+## Change TMHMM2.0.options file
    Change original options file by the following 
 ```
 # You can add/remove options to decodeanhmm.
@@ -102,10 +102,9 @@ For any inquiries or issues, please open an issue on the GitHub repository.
 Please report bugs to the [Github issues
 page](https://github.com/lalomartinez/FunEffect/issues)
 
-License
-
+## License
 MIT License
 
-Contact
+## Contact
 [Dr. J. Eduardo Martinez-Hernandez](eduardo.martinez@cgna.cl)
 
